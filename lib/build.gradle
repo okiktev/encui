@@ -33,8 +33,6 @@ jar {
 
 launch4j {
     outputDir = "$buildDir/launch4j"
-    // icon = "$buildDir/encui-lib/src/main/resources/icon/logo.ico"
-//     icon = "$projectDir/encui-lib/src/main/resources/icon/logo.ico"
     icon = "$projectDir/src/main/resources/icon/logo.ico"
     outfile = 'pngde.exe'
     mainClassName = 'c.d.e.Ui'
@@ -44,5 +42,7 @@ launch4j {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// gradlew createExe
 
 
