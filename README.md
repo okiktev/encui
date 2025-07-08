@@ -1,6 +1,7 @@
 # pngde
  to encode/decode message and incorporate it into png image
 
+![image](https://github.com/user-attachments/assets/0ec247f6-3ce7-45b1-b9b9-5952867361fc)
  
 ### encode
 
